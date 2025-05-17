@@ -1,0 +1,9 @@
+<div class="container mt-4 p-4 bg-white shadow">
+  <h1>Edit pet</h1>
+
+  <%= render 'pets/form', pet: @pet %>
+
+  <hr>
+
+  <%= link_to 'Back to pet', pet_path(@pet) %>
+</div>
